@@ -14,7 +14,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://onjoseph.github.io/404_not_found_page_devchallenge/">
       Solution
     </a>
     <span> | </span>
