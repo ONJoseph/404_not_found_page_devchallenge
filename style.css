@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap');
+
+body{
+max-width: 1440px;
+}
+
+h1{
+position: absolute;
+width: 133px;
+height: 25px;
+left: 77px;
+top: 40px;
+
+font-family: "Inconsolata";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+
+color: #333333;
+}
+
+main{
+width:100%;
+
+margin-left: 77px;
+margin-top: 265px;
+display: flex;
+flex-direction: row;
+}
+
+.Scarecrow{
+width: 539.22px;
+height:447.43px;
+  margin-right:73px;
+}
+
+h2{
+
+width: 586px;
+height: 190px;
+
+margin-top: 0px;
+  
+font-family: "Space Mono";
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 95px;
+letter-spacing: -0.035em;
+
+/* Gray 1 */
+color: #333333;
+
+}
+p{
+
+width: 381px;
+height: 108px;
+
+margin-top: 36px;
+  
+font-family: "Space Mono";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.035em;
+
+/* Gray 2 */
+color: #4F4F4F;
+}
+
+.home-button{
+/* Rectangle 71 */  
+
+width: 216px;
+height: 68px;
+  
+ margin-top: 64px;
+  
+font-family: "Space Mono";
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.035em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+/* Gray 1 */
+background: #333333;
+}
+.home-button:hover{
+  cursor: pointer;
+}
+
+footer{
+width: 100%;
+margin-bottom: 40px;
+  margin-top:308px;
+  display: flex;
+  justify-content: center;
+}
+
+footer> span{
+
+width: 287px;
+height: 17px;
+
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+  
+/* identical to box height */
+
+text-align: center;
+
+color: #BDBDBD;
+
+}
+
+em{
+  font-style: normal;
+  font-weight: bold;
+}
+
+@media(max-width: 1000px){
+  h1{
+left: 24px;
+    top: 20px;
+  }
+  main{
+    margin-top: 109px;
+  flex-direction: column;
+  }
+  .Scarecrow{
+  width: 286.83px;
+  height: 238px;
+  margin-right: auto;
+
+  }
+
+  h2{
+  width: 350px;
+height: 142px;
+    
+      margin-top: 60px;
+
+    font-size: 48px;
+line-height: 71px;
+  }
+  p{
+  width: 328px;
+height: 81px;
+
+    margin-top: 30px;
+    
+    font-size: 18px;
+line-height: 27px;
+  }
+  footer{
+    margin-top:66px;
+  }
+
+}
